@@ -21,9 +21,8 @@ public class Tank {
         public void printPosition () {
             System.out.println("The Tank is at " + x + " now");
         }
-        public void goBackward ( int i){
 
-            x=x+i;
-
+        public void  flight(int x, int y){
+            System.out.println("The tank is arraived to x,y");
         }
 }
